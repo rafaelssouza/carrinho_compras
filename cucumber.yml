@@ -1,0 +1,9 @@
+---
+
+default: -p pretty -p homolog -p html -p tst -p firefox
+pretty: --format pretty
+homolog: AMBIENTE=homolog
+html: --format html --out=report/relatorio.html
+firefox: BROWSER=firefox 
+chrome: BROWSER=chrome
+tst: --tags @testando
